@@ -52,18 +52,27 @@ a:hover{
 .sidebar h1{
   margin-bottom: 15px;
 }
-.content nav{
+.content img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.content{
   text-align: center;
 }
-.content nav a{
-  border: 1px solid #6B94B9;
-  text-decoration: none;
-  padding: 15px;
-  display: block;
-  margin-bottom: 20px;
-  transition: .1s all;
-}
-.content nav a:hover{
-  background-color: #6B94B9;
-  color: #fff;
-}
+
+
+/*.content nav a{*/
+/*  border: 1px solid #6B94B9;*/
+/*  text-decoration: none;*/
+/*  padding: 15px;*/
+/*  display: block;*/
+/*  margin-bottom: 20px;*/
+/*  transition: .1s all;*/
+/*}*/
+/*.content nav a:hover{*/
+/*  background-color: #6B94B9;*/
+/*  color: #fff;*/
+/*}*/

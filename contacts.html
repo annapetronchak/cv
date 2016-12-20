@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Anna's site</title>
   <link rel="stylesheet" href="css/contacts.css">
 </head>
+
 <body>
   <div class="wrapper">
     <div class="sidebar">
@@ -16,28 +18,46 @@
     </div>
     <div class="content">
       <div class="inner">
-          <form action="https://formspree.io/anna.petronchak@gmail.com" method="POST">
-    <div>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name" 
-        required/>
+        <h2>GET IN TOUCH</h2>
+        <form action="https://formspree.io/anna.petronchak@gmail.com" method="POST">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" required/>
+          </div>
+          <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_mail" required/>
+          </div>
+          <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message" required></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Send your message</button>
+          </div>
+        </form>
+        <div class="socials">
+          <a href="https://www.facebook.com/anna.petronchak">
+            <img src="svg/facebook.svg" alt="facebook" />
+          </a>
+          <a href="https://github.com/annapetronchak">
+            <img src="svg/github.svg" alt="github" />
+          </a>
+          <a href="https://www.instagram.com/anna_petronchak/?hl=en">
+            <img src="svg/instagram.svg" alt="instagram" />
+          </a>
+          <a href="https://www.linkedin.com/in/anna-petronchak-43a21542?trk=nav_responsive_tab_profile">
+            <img src="svg/linkedin.svg" alt="linkedin" />
+          </a>
+          <a href="https://twitter.com/annapetronchak?lang=en">
+            <img src="svg/twitter.svg" alt="twitter" />
+          </a>
+          <div class="footer">
+            <p>2016 annapetronchak.com. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div>
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" name="user_mail" 
-        required/>
-    </div>
-    <div>
-        <label for="msg">Message:</label>
-        <textarea id="msg" name="user_message" 
-        required></textarea>
-    </div>
-    <div class="button">
-        <button type="submit">Send your message</button>
-    </div>
-</form>
-    </div>
-    </div>
-  </div>
 </body>
+
 </html>

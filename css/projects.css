@@ -39,7 +39,7 @@ a:hover{
 }
 .content .inner{
   height: 100%;
-  width: 450px;
+  /*width: 450px;*/
   padding: 180px 25px 0;
 }
 .sidebar img{
@@ -52,18 +52,15 @@ a:hover{
 .sidebar h1{
   margin-bottom: 15px;
 }
-.content nav{
+.content{
   text-align: center;
 }
-.content nav a{
-  border: 1px solid #6B94B9;
-  text-decoration: none;
-  padding: 15px;
-  display: block;
-  margin-bottom: 20px;
-  transition: .1s all;
+.resize img{
+  width: 350px;
+  height: 300px;
+  border-radius: 10%;
+  margin-top: 20px;
 }
-.content nav a:hover{
-  background-color: #6B94B9;
-  color: #fff;
+img {
+  display: inline-block;
 }
